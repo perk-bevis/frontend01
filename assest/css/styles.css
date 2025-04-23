@@ -70,6 +70,9 @@ a {
 
 .hero-wrap {
     position: relative;
+    /* sửa colsnap c2 */
+    /* display: flex;
+    flex-direction: column; */
     background: #e6f0ff;
     height: 100vh;
 }
@@ -115,6 +118,7 @@ a {
 }
 
 .hero {
+    /* sửa lỗi colsnap cách 1 */
     /* margin-top: 130px; */
     padding-top: 130px;
 }
