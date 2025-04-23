@@ -13,6 +13,7 @@ body {
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -71,10 +72,11 @@ a {
 .hero-wrap {
     position: relative;
     /* sửa colsnap c2 */
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar{
@@ -120,7 +122,7 @@ a {
 .hero {
     /* sửa lỗi colsnap cách 1 */
     /* margin-top: 130px; */
-    padding-top: 130px;
+    margin-top: 130px;
 }
 /* 559/1110 *100% */
 .hero .info {
